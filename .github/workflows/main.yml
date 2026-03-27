@@ -26,5 +26,5 @@ jobs:
           java-version: '17'
           distribution: 'corretto'
 
-      - name: Verify Java is installed
-        run: java -version
+      - name: Verify Java was installed
+        run: java -version 
