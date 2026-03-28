@@ -28,3 +28,6 @@ jobs:
 
       - name: Verify Java was installed
         run: java -version 
+        
+      - name: Verify Java is installed
+        run: java -version 
